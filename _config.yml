@@ -8,15 +8,15 @@ logo: # filename of a logo image that has been placed into your images directory
 owner:
   name: Akshay Aggarwal
   avatar: good_pic.jpg
-  bio: "This is a sample Jekyll academic website."
+  bio: "What a sculpture is to a block of marble, education is to human soul"
   email: akshayantimatter@gmail.com
   linkedin: akshayaggarwal02
   github: Akshayanti
-  orcid: # ID Number (ex. 0000-0000-0000-0000)
+  orcid: 0000-0002-4452-7459
   researchgate: Akshay_Aggarwal5
   mendeley: #username
   google:
-    scholar: #id
+    scholar: aPd4T_YAAAAJ
   youtube: #username
 
 # The following adjust the accents for your site. If you would like to further edit colors, fonts, font sizes, etc.
