@@ -5,7 +5,7 @@ title: CV
 
 ## Current Occupation
 
-Software Engineer (L1) at Twilio Czechia s.r.o, Prague, Czechia
+{{site.data.cv.position}} at {{site.data.cv.affiliation}}, {{ site.data.cv.address }}
 
 Quick Navigation: [[Education](#education)] [[Publications](#publications)] [[Theses](#theses)] [[Professional Experience](#professional-experience)] [[References](#references)]
 
