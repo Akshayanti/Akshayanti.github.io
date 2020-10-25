@@ -79,7 +79,6 @@ publications:
       journal: TODO
       note:    TODO
       year:    2020
-      month:   9
       url:     /publications/tlt20/
       doi:     TODO
       internal: 1
@@ -88,7 +87,6 @@ publications:
       journal: Journal of Computer Sciences and Applications
       note: JCSA
       year: 2016
-      month: 2
       url: http://pubs.sciepub.com/jcsa/4/1/1
       doi: http://dx.doi.org/10.12691/jcsa-4-1-1
 
@@ -96,7 +94,6 @@ theses:
   - title: Consistency of Linguistic Annotation
     school: Univerzita Karlova, Matematicko-fyzikální fakulta, Ústav formální a aplikované lingvistiky
     year: 2020
-    month: 9
     address: Prague, Czechia
     supervisor: Zeman, Daniel
     supervisor_link: https://ufal.mff.cuni.cz/daniel-zeman
@@ -105,13 +102,11 @@ theses:
   - title: "Annotation Inconsistencies in Universal Dependencies: Identification, and Correction"
     school: University of Basque Country
     year: 2019
-    month: 9
     address: Donostia, Spain
     supervisor: Zeman, Daniel
     supervisor_link: https://ufal.mff.cuni.cz/daniel-zeman
     url: http://ixa.si.ehu.es/master/en/node/2100
     type: Master's Thesis
-
 
 references:
     - name:  Daniel Zeman

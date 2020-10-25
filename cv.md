@@ -19,10 +19,11 @@ Degree Awarded
 ## Publications
 
 {% for pub in site.data.cv.publications %}
+`{{pub.year}}`
 {{pub.author}}<br />
 **{{pub.title}}**<br />
 *{{pub.journal}}*
-{% if pub.note %} *({{pub.note}})* {% endif %} *{{pub.month}}, {{pub.year}}*<br />
+{% if pub.note %} *({{pub.note}})* {% endif %}<br />
 [[web]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]
 {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
 
@@ -31,10 +32,11 @@ Degree Awarded
 ## Theses
 
 {% for pub in site.data.cv.theses %}
+`{{pub.year}}`
 **{{pub.title}}**<br />
 {{% if pub.type %}} {{pub.type}}. {{% endif %}} {% if pub.supervisor %} Supervised by *[{{pub.supervisor}}]({{pub.supervisor_link}})*. {% endif %} <br />
 *{{pub.school}}*<br />
-In *{{pub.month}}, {{pub.year}}* in *{{pub.address}}* <br />
+In *{{pub.address}}* <br />
 {% if pub.url %}[[View Thesis]({{pub.url}})]{% endif %}
 
 {% endfor %}

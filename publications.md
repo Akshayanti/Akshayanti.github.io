@@ -3,14 +3,16 @@ layout: resume
 title: List of Publications
 ---
 
-[Google Scholar](https://scholar.google.co.uk/citations?user=aPd4T_YAAAAJ)
+[View on Google Scholar](https://scholar.google.co.uk/citations?user=aPd4T_YAAAAJ)
 
-Jump to: [Publications](#publications) [Theses](#theses)
+Jump to: [[Publications](#publications)] [[Theses](#theses)]
+
+\hline
 
 ## Publications
 
 {% for pub in site.data.cv.publications %}
-`{{pub.month}}, {{pub.year}}` 
+`{{pub.year}}` 
 {{pub.author}}<br />
 **{{pub.title}}**<br />
 *{{pub.journal}}*
@@ -23,10 +25,11 @@ Jump to: [Publications](#publications) [Theses](#theses)
 ## Theses
 
 {% for pub in site.data.cv.theses %}
+`{{pub.year}}`
 **{{pub.title}}**<br />
 {{% if pub.type %}} {{pub.type}}. {{% endif %}} {% if pub.supervisor %} Supervised by *[{{pub.supervisor}}]({{pub.supervisor_link}})*. {% endif %} <br />
 *{{pub.school}}*<br />
-In *{{pub.month}}, {{pub.year}}* in *{{pub.address}}* <br />
+In *{{pub.address}}* <br />
 {% if pub.url %}[[View Thesis]({{pub.url}})]{% endif %}
 
 {% endfor %}
