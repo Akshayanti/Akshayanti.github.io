@@ -7,6 +7,8 @@ title: CV
 
 Software Engineer (L1) at Twilio Czechia s.r.o, Prague, Czechia
 
+Quick Navigation: [[Education](#education)] [[Publications](#publications)] [[Theses](#theses)] [[Professional Experience](#professional-experience)] [[References](#references)]
+
 ----
 
 ## Education
@@ -16,7 +18,7 @@ Software Engineer (L1) at Twilio Czechia s.r.o, Prague, Czechia
 **{{pub.title}}**, **{{pub.affiliation}}, {{pub.location}}**<br />
 {% if pub.note %} *({{pub.note}})* {% endif %}<br />
 {% if pub.thesis %} Thesis Title: {{pub.thesis}} {% endif %}<br />
-{% if pub.thesis %} Supervisor(s): {{pub.supervisor}} {% if pub.supervisor2 %} and {{pub.supervisor2}}{% endif %}{% endif %}<br />
+{% if pub.thesis %} Supervisor(s): {{pub.supervisor}} {% if pub.supervisor2 %} and {{pub.supervisor2}}{% endif %}{% endif %}
 
 {% endfor %}
 
