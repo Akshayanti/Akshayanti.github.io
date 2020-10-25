@@ -30,7 +30,7 @@ Quick Navigation: [[Education](#education)] [[Publications](#publications)] [[Th
 **{{pub.title}}**<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})* {% endif %}<br />
-[[web]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]
+{% if pub.url %}[[web]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]{% endif %}
 {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
 
 {% endfor %}

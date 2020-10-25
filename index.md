@@ -5,6 +5,9 @@ excerpt: "About Me..."
 
 Currently working as a software engineer, I recently finished my master's degree from Charles University, Prague.
 
+Whatever free time I find from work and reading, I devote to automating mundane tasks by scripting them, trying to learn and/or
+read about different languages in the world, browsing random articles on wikipedia, and gaming.
+
 ## On Reading
 
 I used to read more voraciously, but have recently lost my way with the books. A few works I have tremendously enjoyed
@@ -27,4 +30,4 @@ So far, I have been trying to better understand the concepts of {% for pub in si
 {% endfor %} while focusing on Universal Dependencies Project.
 
 I have been equally interested in {% for pub in site.data.cv.research_interests2 %} {{pub}}, {% endfor %} and am trying to
-learn more about them, whilst trying to solve more and more problems related to indic and low-resource languages.
+learn more about them, whilst trying to solve more and more problems related to Indic and low-resource languages.

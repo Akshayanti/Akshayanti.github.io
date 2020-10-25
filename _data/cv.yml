@@ -88,20 +88,33 @@ awards:
       detail: All India Rank 54 in IIT-JEE 2005 (entrance examination for Indian Institutes of Technology) amongst nearly 300,000 aspirants.
 
 publications:
-    - title:   Estimating POS Annotation Consistency of Different Treebanks in a Language
-      author:  Aggarwal A., and Zeman D.
-      journal: TODO
-      note:    TODO
-      year:    2020
-      url:     TODO
-      doi:     TODO
-    - title: Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
-      author: Aggarwal A.
-      journal: Journal of Computer Sciences and Applications
-      note: JCSA
-      year: 2016
-      url: http://pubs.sciepub.com/jcsa/4/1/1
-      doi: http://dx.doi.org/10.12691/jcsa-4-1-1
+    - title:    Estimating POS Annotation Consistency of Different Treebanks in a Language
+      author:   Aggarwal A., and Zeman D.
+      journal:  TODO
+      note:     TODO
+      year:     2020
+      url:      TODO
+      doi:      TODO
+    - title:    Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
+      author:   Aggarwal A.
+      journal:  Journal of Computer Sciences and Applications
+      note:     JCSA
+      year:     2016
+      url:      "http://pubs.sciepub.com/jcsa/4/1/1"
+      doi:      "http://dx.doi.org/10.12691/jcsa-4-1-1"
+    - title:    Remote Update of Database through Mobile Device
+      author:   Aggarwal A., Kharia S., Mediratta D.
+      journal:  International Journal of Science Technology and Engineering
+      note:     IJSTE
+      year:     2015
+      url:      "http://ijste.org/Article.php?manuscript=IJSTEV2I3008"
+    - title:    Data Usage Monitor for a Shared Wireless Network Connection
+      author:   Aggarwal A., Kharia S.
+      journal:  IOSR Journal of Computer Engineering
+      note:     IOSR-JCE
+      year:     2015
+      url:
+      doi:      "http://dx.doi.org/10.9790/0661-17215057"
 
 theses:
   - title: Consistency of Linguistic Annotation
