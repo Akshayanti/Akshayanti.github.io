@@ -1,20 +1,11 @@
 ---
-layout: resume
-title: CV
+layout: page
+title: List of Publications
 ---
-## Current Occupation
 
-Software Engineer (L1) at Twilio Czechia s.r.o, Prague, Czechia
+[Google Scholar](https://scholar.google.co.uk/citations?user=aPd4T_YAAAAJ)
 
-## Education
-
-`1990 - 1994`
-__University Name__
-Degree Awarded
-
-`1995 - 1997`
-__University Name__
-Degree Awarded 
+Jump to: [Publications](#publications) [Theses](#theses)
 
 ## Publications
 
@@ -38,32 +29,3 @@ In *{{pub.month}}, {{pub.year}}* in *{{pub.address}}* <br />
 {% if pub.url %}[[View Thesis]({{pub.url}})]{% endif %}
 
 {% endfor %}
-
-## Professional Experience
-
-`Nov 2020 - Present`
-__Software Engineer (L1)__, Twilio Czechia s.r.o
-Prague, Czechia  
-
-`April - October 2020`
-__Intern Software Engineer (L1)__, Twilio Czechia s.r.o 
-
-- Task
-- Task
-
-## References
-
-{% for pub in site.data.cv.references %}
-**{{pub.name}}**<br />
-{{pub.affiliation}}<br />
-Email: [{{pub.mail}}](mailto:{{pub.mail}})
-
-{% endfor %}
-
-
-
-<!-- ### Footer
-
-Last updated: Oct 25, 2020 -->
-
-
