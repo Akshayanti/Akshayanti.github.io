@@ -53,7 +53,8 @@ In *{{pub.address}}* <br />
 {% for pub in site.data.cv.positions %}
 `{{pub.date}}`
 **{{pub.title}}**, {{pub.company}}, {{pub.location}}<br />
-{{% if pub.mentor %}} Manager: [[{{pub.mentor}}]({{pub.mentor_id}})]<br />{{% endif %}}
+{{% if pub.mentor %}} Manager: [{{pub.mentor}}](mailto:{{pub.mentor_id}})<br />{{% endif %}}
+{{% if pub.task %}} {{pub.task}} {{% endif %}}
 
 {% endfor %}
 
