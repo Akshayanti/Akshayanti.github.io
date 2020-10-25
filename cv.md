@@ -50,15 +50,15 @@ In *{{pub.address}}* <br />
 
 ## Professional Experience
 
-{% for pos in site.data.cv.positions %}
-`{{pos.date}}`
-**{{pos.title}}**, {{pos.company}}, {{pos.location}}<br />
-{{% if pos.mentor %}} Manager: [[{{pos.mentor}}]({{pos.mentor_id}})]<br />{% endif %}
+`Nov 2020 - Present`
+__Software Engineer (L1)__, Twilio Czechia s.r.o, Prague
+Prague, Czechia  
 
-{{% if pos.task1 %}} - {{pos.task1}}<br />{% endif %}
-{{% if pos.task2 %}} - {{pos.task2}}{% endif %}
+`April - October 2020`
+__Intern Software Engineer (L1)__, Twilio Czechia s.r.o 
 
-{% endfor %}
+- Task
+- Task
 
 ## References
 
