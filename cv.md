@@ -1,13 +1,13 @@
 ---
 layout: resume
-title: CV
+title: Curriculum Vitae
 ---
 
 ## Current Occupation
 
 {{site.data.cv.position}} at {{site.data.cv.affiliation}}, {{ site.data.cv.address }}
 
-Quick Navigation: [[Education](#education)] [[Publications](#publications)] [[Theses](#theses)] [[Professional Experience](#professional-experience)] [[References](#references)]
+Quick Navigation: [[Education](#education)] [[Publications](#publications)] [[Theses](#theses)] [[Professional Experience](#professional-experience)] [[Other Details](#other-details)] [[References](#references)]
 
 ----
 
@@ -54,6 +54,24 @@ In *{{pub.address}}* <br />
 `{{pub.date}}`
 **{{pub.title}}**, {{pub.company}}, {{pub.location}}<br />
 {{% if pub.task %}} {{pub.task}} {{% endif %}}
+
+{% endfor %}
+
+## Other Details
+
+### Languages
+
+{% for pub in site.data.cv.language %}
+`{{pub.level}}`
+**{{pub.name}}**
+
+{% endfor %}
+
+### Awards and Extra-Curricular
+
+{% for pub in site.data.cv.awards %}
+`{{pub.year}}`
+**{{pub.detail}}**
 
 {% endfor %}
 

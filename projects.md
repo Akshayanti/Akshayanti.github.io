@@ -11,6 +11,8 @@ Jump to: [[Current Projects](#current-projects)] [[Completed Projects](#complete
 
 {% endfor %}
 
+----
+
 ## Completed Projects
 
 {% for pub in site.data.project_list.completed %}
