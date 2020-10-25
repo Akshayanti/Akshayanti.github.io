@@ -51,7 +51,7 @@ In *{{pub.address}}* <br />
 ## Professional Experience
 
 `Nov 2020 - Present`
-__Software Engineer (L1)__, Twilio Czechia s.r.o
+__Software Engineer (L1)__, Twilio Czechia s.r.o, Prague
 Prague, Czechia  
 
 `April - October 2020`
