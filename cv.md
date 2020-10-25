@@ -16,8 +16,8 @@ Quick Navigation: [[Education](#education)] [[Publications](#publications)] [[Th
 {% for pub in site.data.cv.education %}
 `{{pub.date}}`
 **{{pub.title}}**, **{{pub.affiliation}}, {{pub.location}}**<br />
-{% if pub.note %} *({{pub.note}})* {% endif %}<br />
-{% if pub.thesis %} Thesis Title: {{pub.thesis}} {% endif %}<br />
+{% if pub.note %} *({{pub.note}})*<br />{% endif %}
+{% if pub.thesis %} Thesis Title: {{pub.thesis}}<br /> {% endif %}
 {% if pub.thesis %} Supervisor(s): {{pub.supervisor}} {% if pub.supervisor2 %} and {{pub.supervisor2}}{% endif %}{% endif %}
 
 {% endfor %}
