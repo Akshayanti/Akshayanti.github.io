@@ -34,8 +34,8 @@ Degree Awarded
 {% for pub in site.data.cv.theses %}
 `{{pub.year}}`
 **{{pub.title}}**<br />
-{{% if pub.type %}} {{pub.type}} under supervision of [{{pub.supervisor}}]({{pub.supervisor_link}})
-{% if pub.supervisor2 %} and [{{pub.supervisor2}}]({{pub.supervisor2_link}}){% endif %}{{% endif %}}<br />
+{{% if pub.type %}} {{pub.type}}. Supervised by [{{pub.supervisor}}]({{pub.supervisor_link}})
+{% if pub.supervisor2 %} and [{{pub.supervisor2}}]({{pub.supervisor2_link}}){% endif %}.{{% endif %}}<br />
 *{{pub.school}}*<br />
 In *{{pub.address}}* <br />
 {% if pub.url %}[[View Thesis]({{pub.url}})]{% endif %}
