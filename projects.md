@@ -7,7 +7,7 @@ Jump to: [[Current Projects](#current-projects)] [[Completed Projects](#complete
 {% for pub in site.data.project_list.current %}
 **{{pub.name}}**<br />
 {{pub.description}}<br />
-{% if pub.link %}<i class="fa fa-fw fa-github"></i> [View on Github]({{pub.link}}{% endif %}
+{% if pub.link %}<i class="fa fa-fw fa-github"></i> [View on Github]({{pub.link}}){% endif %}
 
 {% endfor %}
 
@@ -18,6 +18,6 @@ Jump to: [[Current Projects](#current-projects)] [[Completed Projects](#complete
 {% for pub in site.data.project_list.completed %}
 **{{pub.name}}**<br />
 {{pub.description}}<br />
-{% if pub.link %}<i class="fa fa-fw fa-github"></i> [View on Github]({{pub.link}}{% endif %}
+{% if pub.link %}<i class="fa fa-fw fa-github"></i> [View on Github]({{pub.link}}){% endif %}
 
 {% endfor %}
