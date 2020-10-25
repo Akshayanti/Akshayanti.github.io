@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: resume
 title: List of Publications
 ---
 
@@ -10,10 +10,11 @@ Jump to: [Publications](#publications) [Theses](#theses)
 ## Publications
 
 {% for pub in site.data.cv.publications %}
+`{{pub.month}}, {{pub.year}}` 
 {{pub.author}}<br />
 **{{pub.title}}**<br />
 *{{pub.journal}}*
-{% if pub.note %} *({{pub.note}})* {% endif %} *{{pub.month}}, {{pub.year}}*<br />
+{% if pub.note %} *({{pub.note}})* {% endif %}<br />
 [[web]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]
 {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
 
