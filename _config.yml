@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title: Akshay Aggarwal's website
+title: Akshay Aggarwal's Academic Website
 locale: en_US
 logo: # filename of a logo image that has been placed into your images directory
 
@@ -27,7 +27,7 @@ lowlight-color: '#000'
   # NOTE: If you would like your site to be licensed under a creative commons license, uncomment the 'yes' next to the type of license you wish to use.
 creative-commons:
   cc-by: #yes
-  cc-by-nc: #yes
+  cc-by-nc: yes
 
 #DO NOT EDIT BEYOND THIS POINT
 # Jekyll configuration
