@@ -1,4 +1,5 @@
-Jump to: [[Current Projects](#current-projects)] [[Completed Projects](#completed-projects)]
+**Quick Navigation Links**:<b />
+[[Current Projects](#current-projects)] [[Completed Projects](#completed-projects)]
 
 ----
 

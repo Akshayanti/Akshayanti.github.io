@@ -7,7 +7,7 @@ title: Curriculum Vitae
 
 {{site.data.cv.position}} at {{site.data.cv.affiliation}}, {{ site.data.cv.address }}
 
-Quick Navigation Links:<b \>
+**Quick Navigation Links**:<b />
 [[Education](#education)] [[Publications](#publications)] [[Theses](#theses)] [[Professional Experience](#professional-experience)] [[Other Details](#other-details)] [[References](#references)]
 
 ----
