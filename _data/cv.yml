@@ -1,14 +1,19 @@
 name: Akshay Aggarwal
-affiliation: Twilio Czechia
+affiliation: Twilio Czechia s.r.o
 address: Prague, Czechia
 email: akshayantimatter@gmail.com
 #web: http://people.csail.mit.edu/gchauras/
 
 research_interests:
-    - Computer vision and machine learning for VR and related applications.
-    - 3D reconstruction and fitting to RGB-D data.
-    - Neural networks for 2D/3D synthesis.
-    - Hardware acceleration -- compilers, GPGPU, ARM-optimisation.
+  - Morpho-Syntax
+  - Morphology
+  - Syntax
+  - Parsing
+  - Universal Dependencies Project (UD)
+  - Machine Translation
+  - Language Independent Tools and Technologies
+  - Indic Languages
+  - Low Resource Languages
 
 education:
     - date:         2017-2020
@@ -26,26 +31,35 @@ education:
       supervisor2:  Koldo Gojenola
       thesis:       "Annotation Inconsistencies in Universal Dependencies: Identification, and Correction"
       note:         Part of EM-LCT dual degree program
+    - date: January - June 2016
+      affiliation: University de Technology de Compiègne
+      location: Compiègne, France
+      note: International Student Exchange
     - date:         2012-2016
       title:        B.Tech in Information Technology
       affiliation:  Vellore Institute of Technology
       location:     Vellore, India
 
 positions:
-    - date:         2018-till date
-      title:        Computer Vision
-      affiliation:  Oculus
-      location:     Zurich, Switzerland
-      mentor:
-      notes:
-
-visiting_positions:
-    - date:         Aug 2013
-      title:        Visiting student
-      affiliation:  Massachusetts Institute of Technology
-      location:     Cambridge MA, USA
-      mentor:       Prof. Fr{\'e}do Durand
-      notes:        Parallel execution of non-parallel recursive filters.
+  - date:         November 2020 - Present
+    title:        Software Engineer (L1)
+    company:      Twilio Czechia s.r.o
+    location:     Prague, Czechia
+    mentor:       Aleš Kracik
+    mentor_id:    akracik@twilio.com
+  - date:         April - October 2020
+    title:        Intern Software Engineer (R&D)
+    company:      Twilio Czechia s.r.o
+    location:     Prague, Czechia
+    mentor:       Aleš Kracik
+    mentor_id:    akracik@twilio.com
+    task1:        "Worked with the on-going company project in preparation for Flex Public Beta"
+  - date:         June 2014
+    title:        Intern Network Administrator
+    company:      Telenor Communications Pvt. Ltd.
+    location:     Dehradun, India
+    task1:        Analysis of Network Structure
+    task2:        Monitoring Network Reliability
 
 technical_skills:
     - C++
@@ -80,9 +94,8 @@ publications:
       journal: TODO
       note:    TODO
       year:    2020
-      url:     /publications/tlt20/
+      url:     TODO
       doi:     TODO
-      internal: 1
     - title: Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
       author: Aggarwal A.
       journal: Journal of Computer Sciences and Applications
@@ -93,7 +106,7 @@ publications:
 
 theses:
   - title: Consistency of Linguistic Annotation
-    school: Univerzita Karlova, Matematicko-fyzikální fakulta, Ústav formální a aplikované lingvistiky
+    school: Univerzita Karlova, Matematicko-fyzikální fakulta, Ústav Formální a Aplikované Lingvistiky (ÚFAL)
     year: 2020
     address: Prague, Czechia
     supervisor: Zeman, Daniel
