@@ -1,3 +1,8 @@
+---
+layout: page
+title: Selected Projects
+---
+
 **Quick Navigation Links**:<b />
 [[Current Projects](#current-projects)] [[Completed Projects](#completed-projects)]
 
