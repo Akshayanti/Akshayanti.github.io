@@ -5,6 +5,8 @@ excerpt: "About Me..."
 
 Currently working as a software engineer, I recently finished my master's degree from Charles University, Prague.
 
+## On Reading
+
 I used to read more voraciously, but have recently lost my way with the books. A few works I have tremendously enjoyed
 include {% for pub in site.data.books.books %} {{pub.name}} ({{pub.author}}), {% endfor %} among others.
 
@@ -21,6 +23,8 @@ Originally written in {{pub.original}}<br />
  
 ## Research Interests
 
-{% for pub in site.data.cv.research_interests %}
-- {{pub}}
-{% endfor %}
+So far, I have been trying to better understand the concepts of {% for pub in site.data.cv.research_interests1 %} {{pub}}, 
+{% endfor %} while focusing on Universal Dependencies Project.
+
+I have been equally interested in {% for pub in site.data.cv.research_interests2 %} {{pub}}, {% endfor %} and am trying to
+learn more about them, whilst trying to solve more and more problems related to indic and low-resource languages.

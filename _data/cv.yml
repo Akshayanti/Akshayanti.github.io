@@ -5,16 +5,15 @@ email: akshayantimatter@gmail.com
 position: Software Engineer (L1)
 #web: http://people.csail.mit.edu/gchauras/
 
-research_interests:
+research_interests1:
   - Morpho-Syntax
   - Morphology
   - Syntax
   - Parsing
-  - Universal Dependencies Project (UD)
+
+research_interests2:
   - Machine Translation
   - Language Independent Tools and Technologies
-  - Indic Languages
-  - Low Resource Languages
 
 education:
     - date:         2017-2020
