@@ -7,7 +7,7 @@ title: List of Publications
 
 Jump to: [[Publications](#publications)] [[Theses](#theses)]
 
-\hline
+----
 
 ## Publications
 
