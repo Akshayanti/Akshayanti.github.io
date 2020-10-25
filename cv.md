@@ -13,10 +13,10 @@ Software Engineer (L1) at Twilio Czechia s.r.o, Prague, Czechia
 
 {% for pub in site.data.cv.education %}
 `{{pub.date}}`
-**{{pub.title}}** from **{{pub.affiliation}}, {{pub.location}}**<br />
+**{{pub.title}}**, **{{pub.affiliation}}, {{pub.location}}**<br />
 {% if pub.note %} *({{pub.note}})* {% endif %}<br />
-{% if pub.thesis %} **Thesis Topic**: {{pub.thesis}} {% endif %}<br />
-{% if pub.thesis %} **Thesis Supervisor(s)**: {{pub.supervisor}} {% if pub.supervisor2 %} and {{pub.supervisor2}}{% endif %}{% endif %}<br />
+{% if pub.thesis %} Thesis Title: {{pub.thesis}} {% endif %}<br />
+{% if pub.thesis %} Supervisor(s): {{pub.supervisor}} {% if pub.supervisor2 %} and {{pub.supervisor2}}{% endif %}{% endif %}<br />
 
 {% endfor %}
 
