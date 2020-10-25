@@ -59,11 +59,11 @@ In *{{pub.address}}* <br />
 
 ## Other Details
 
-### Languages
+### Spoken Languages
 
 {% for pub in site.data.cv.language %}
 `{{pub.level}}`
-**{{pub.name}}**
+{{pub.name}}
 
 {% endfor %}
 
@@ -71,7 +71,7 @@ In *{{pub.address}}* <br />
 
 {% for pub in site.data.cv.awards %}
 `{{pub.year}}`
-**{{pub.detail}}**
+{{pub.detail}}
 
 {% endfor %}
 
