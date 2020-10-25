@@ -114,7 +114,7 @@ publications:
       note:     IOSR-JCE
       year:     2015
       url:      "http://www.iosrjournals.org/iosr-jce/papers/Vol17-issue2/Version-1/H017215057.pdf"
-      doi:      "http://dx.doi.org/10.9790/0661-17215057"
+      #doi:      "http://dx.doi.org/10.9790/0661-17215057"
 
 theses:
   - title: Consistency of Linguistic Annotation
