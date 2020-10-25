@@ -17,7 +17,7 @@ Jump to: [[Publications](#publications)] [[Theses](#theses)]
 **{{pub.title}}**<br />
 *{{pub.journal}}*
 {% if pub.note %} *({{pub.note}})* {% endif %}<br />
-{% if pub.url %}[[web]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]{% endif %}
+[[web]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]
 {% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
 
 {% endfor %}
