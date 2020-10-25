@@ -50,15 +50,12 @@ In *{{pub.address}}* <br />
 
 ## Professional Experience
 
-`Nov 2020 - Present`
-__Software Engineer (L1)__, Twilio Czechia s.r.o, Prague
-Prague, Czechia  
+{% for pub in site.data.cv.positions %}
+`{{pub.date}}`
+**{{pub.title}}**, {{pub.company}}, {{pub.location}}<br />
+{{% if pub.mentor %}} Manager: [[{{pub.mentor}}]({{pub.mentor_id}})]<br />{{% endif %}}
 
-`April - October 2020`
-__Intern Software Engineer (L1)__, Twilio Czechia s.r.o 
-
-- Task
-- Task
+{% endfor %}
 
 ## References
 
