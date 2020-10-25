@@ -2,19 +2,23 @@
 layout: resume
 title: CV
 ---
+
 ## Current Occupation
 
 Software Engineer (L1) at Twilio Czechia s.r.o, Prague, Czechia
 
+----
+
 ## Education
 
-`1990 - 1994`
-__University Name__
-Degree Awarded
+{% for pub in site.data.cv.education %}
+`{{pub.date}}`
+**{{pub.title}}** from **{{pub.affiliation}}, {{pub.location}}**<br />
+{% if pub.note %} *({{pub.note}})* {% endif %}<br />
+{% if pub.thesis %} **Thesis Topic**: {{pub.thesis}} {% endif %}<br />
+{% if pub.thesis %} **Thesis Supervisor(s)**: {{pub.supervisor}} {% if pub.supervisor2 %} and {{pub.supervisor2}}{% endif %}{% endif %}<br />
 
-`1995 - 1997`
-__University Name__
-Degree Awarded 
+{% endfor %}
 
 ## Publications
 

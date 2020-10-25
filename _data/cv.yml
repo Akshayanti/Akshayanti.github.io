@@ -11,24 +11,25 @@ research_interests:
     - Hardware acceleration -- compilers, GPGPU, ARM-optimisation.
 
 education:
-    - date:         2010-2014
-      title:        Ph.D in Computer Science
-      affiliation:  INRIA
-      location:     Sophia Antipolis, France
-      mentor:       Dr. George Drettakis
-      thesis:       Algorithms and perceptual analysis for interactive free viewpoint image-based navigation
-    - date:         2009-2010
-      title:        M.Sc in Computer Science
-      affiliation:  ENSIMAG
-      location:     Grenoble, France
-      mentor:
-      thesis:
-    - date:         2005-2009
-      title:        B.Tech in Computer Science
-      affiliation:  Indian Institute of Technology Delhi
-      location:     New Delhi, India
-      mentor:       Prof. Subodh Kumar
-      thesis:       Real time traffic simulation
+    - date:         2017-2020
+      title:        M.Sc. in Computational Linguistics
+      affiliation:  Charles University
+      location:     Prague, Czechia
+      supervisor:   Daniel Zeman
+      thesis:       Consistency of Linguistic Annotation
+      note:         Part of EM-LCT dual degree program
+    - date:         2017-2019
+      title:        M.Sc. in Computational Linguistics
+      affiliation:  University of Basque Country
+      location:     Donstia, Spain
+      supervisor:   Daniel Zeman
+      supervisor2:  Koldo Gojenola
+      thesis:       "Annotation Inconsistencies in Universal Dependencies: Identification, and Correction"
+      note:         Part of EM-LCT dual degree program
+    - date:         2012-2016
+      title:        B.Tech in Information Technology
+      affiliation:  Vellore Institute of Technology
+      location:     Vellore, India
 
 positions:
     - date:         2018-till date

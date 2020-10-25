@@ -22,6 +22,8 @@ Jump to: [[Publications](#publications)] [[Theses](#theses)]
 
 {% endfor %}
 
+----
+
 ## Theses
 
 {% for pub in site.data.cv.theses %}
