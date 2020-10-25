@@ -53,10 +53,19 @@ __Intern Software Engineer (L1)__, Twilio Czechia s.r.o
 - Task
 - Task
 
+## References
+
+{% for pub in site.data.cv.references %}
+**{{pub.name}}**<br />
+{{pub.affiliation}}<br />
+Email: [{{pub.mail}}](mailto:{{pub.mail}})
+
+{% endfor %}
+
 
 
 <!-- ### Footer
 
-Last updated: Oct 23, 2020 -->
+Last updated: Oct 25, 2020 -->
 
 

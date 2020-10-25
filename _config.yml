@@ -7,7 +7,7 @@ logo: # filename of a logo image that has been placed into your images directory
 # Enter the following platform usernames if you would like for them to appear on your site.
 owner:
   name: Akshay Aggarwal
-  avatar: bio-photo.jpg
+  avatar: good_pic.jpg
   bio: "This is a sample Jekyll academic website."
   email: akshayantimatter@gmail.com
   linkedin: akshayaggarwal02
@@ -27,7 +27,7 @@ lowlight-color: '#000'
   # NOTE: If you would like your site to be licensed under a creative commons license, uncomment the 'yes' next to the type of license you wish to use.
 creative-commons:
   cc-by: #yes
-  cc-by-nc: yes
+  cc-by-nc: #yes
 
 #DO NOT EDIT BEYOND THIS POINT
 # Jekyll configuration

@@ -74,34 +74,26 @@ awards:
       detail: All India Rank 54 in IIT-JEE 2005 (entrance examination for Indian Institutes of Technology) amongst nearly 300,000 aspirants.
 
 publications:
-#    - title:   "Passthrough+: Real-time Stereoscopic View Synthesis for Mobile Mixed Reality"
-#      author:  G. Chaurasia, A. Nieuwoudt, A. E. Ichim, R Szeliski, A. Sorkine-Hornung
-#      journal: Proceedings of ACM on Computer Graphics and Interactive Techniques
-#      note:    to appear in I3D
-#      year:    2020
-#      doi:     https://doi.org/10.1145/3384540
-#      url:     https://dl.acm.org/doi/abs/10.1145/3384540
-#      media:
-#          - name: Oculus Connect 6
-#            url:  https://www.oculus.com/blog/oculus-quest-at-oc6-introducing-hand-tracking-oculus-link-passthrough-on-quest-and-more/?locale=en_US
-#          - name: VentureBeat
-#            url:  https://venturebeat.com/2019/10/02/oculus-quest-gets-go-apps-passthrough-and-easier-firmware-updates/
-#          - name: UploadVR
-#            url:  https://uploadvr.com/oc6-quest-passthrough/?fbclid=IwAR1uZPB9ODf76lw7p3rNlM_A4lK0EcS1yQfCpdly5uRiCMj3XiqrrM1ohco
     - title:   Estimating POS Annotation Consistency of Different Treebanks in a Language
       author:  Aggarwal A., and Zeman D.
-      journal: Indian Conference on Computer Vision, Graphics and Image Processing
-      note:    ICVGIP
+      journal: TODO
+      note:    TODO
       year:    2020
       month:   9
       url:     publications/tlt20/
-      doi:     http://dx.doi.org/10.1145/1924559.1924604
+      doi:     TODO
       internal: 1
-
+    - title: Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
+      author: Aggarwal A.
+      journal: Journal of Computer Sciences and Applications
+      note: JCSA
+      year: 2016
+      month: 2
+      url: http://pubs.sciepub.com/jcsa/4/1/1
+      doi: http://dx.doi.org/10.12691/jcsa-4-1-1
 
 theses:
   - title: Consistency of Linguistic Annotation
-    author: Aggarwal A.
     school: Univerzita Karlova, Matematicko-fyzikální fakulta, Ústav formální a aplikované lingvistiky
     year: 2020
     month: 9
@@ -110,9 +102,21 @@ theses:
     supervisor_link: https://ufal.mff.cuni.cz/daniel-zeman
     url: https://dspace.cuni.cz/handle/20.500.11956/120867
     type: Master's Thesis
+  - title: "Annotation Inconsistencies in Universal Dependencies: Identification, and Correction"
+    school: University of Basque Country
+    year: 2019
+    month: 9
+    address: Donostia, Spain
+    supervisor: Zeman, Daniel
+    supervisor_link: https://ufal.mff.cuni.cz/daniel-zeman
+    url: http://ixa.si.ehu.es/master/en/node/2100
+    type: Master's Thesis
+
 
 references:
-    - name:  Dr. George Drettakis
-      title: Senior Researcher, INRIA Sophia Antipolis, France
-      www:   http://www-sop.inria.fr/members/George.Drettakis/
-      mail:  george.drettakis@inria.fr
+    - name:  Daniel Zeman
+      affiliation: Institute of Formal and Applied Linguistics (UFAL), Charles University (UK), Czechia
+      mail:  zeman@ufal.mff.cuni.cz
+    - name: Koldo Gojenola
+      affiliation: IXA Research Group, University of Basque Country (UPV-EHU), Spain
+      mail: koldo.gojenola@ehu.eus
