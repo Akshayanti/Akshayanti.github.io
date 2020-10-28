@@ -1,7 +1,9 @@
 ---
 layout: resume
-title: Curriculum Vitae
+title: Curriculum Vitae 
 ---
+
+<i class="fa fa-fw fa-github"></i> [View Academic CV on Github](https://github.com/Akshayanti/myCV/blob/CVs/Resume_academic.pdf) <i class="fa fa-fw fa-github"></i> [View Professional CV on Github](https://github.com/Akshayanti/myCV/blob/CVs/Resume_professional.pdf)
 
 ## Current Occupation
 
