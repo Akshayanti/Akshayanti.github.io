@@ -71,7 +71,7 @@ publications:
       note:     TLT 2020
       year:     2020
       url:      "https://www.aclweb.org/anthology/2020.tlt-1.9/"
-      #doi:      TODO
+      doi:      "http://dx.doi.org/10.18653/v1/2020.tlt-1.9"
     - title:    Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
       author:   Aggarwal A.
       journal:  Journal of Computer Sciences and Applications
