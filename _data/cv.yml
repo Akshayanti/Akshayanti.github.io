@@ -3,7 +3,7 @@ affiliation: Twilio Czechia s.r.o
 address: Prague, Czechia
 email: akshayantimatter@gmail.com
 position: Software Engineer (L1)
-#web: http://people.csail.mit.edu/gchauras/
+web: https://akshayanti.github.io
 
 research_interests1:
   - Morpho-Syntax
@@ -71,7 +71,7 @@ publications:
       note:     TLT 2020
       year:     2020
       url:      "https://www.aclweb.org/anthology/2020.tlt-1.9/"
-      #doi:      TODO
+      doi:      "http://dx.doi.org/10.18653/v1/2020.tlt-1.9"
     - title:    Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
       author:   Aggarwal A.
       journal:  Journal of Computer Sciences and Applications
@@ -95,7 +95,7 @@ publications:
 
 theses:
   - title: Consistency of Linguistic Annotation
-    school: Univerzita Karlova, Matematicko-fyzikální fakulta, Ústav Formální a Aplikované Lingvistiky (ÚFAL)
+    school: Univerzita Karlova, Faculty of Mathematics and Physics, Institute of Formal and Applied Linguistics (ÚFAL)
     year: 2020
     address: Prague, Czechia
     supervisor: Zeman, Daniel
