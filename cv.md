@@ -12,8 +12,7 @@ title: Curriculum Vitae
 
 **Quick Navigation Links**:<br />
 [[Professional Experience](#professional-experience)] [[Education](#education)] <br />
-[[Publications](#publications)] [[Other Details](#other-details)] <br />
-[[References](#references)]
+[[Other Details](#other-details)] [[References](#references)]
 
 ----
 
@@ -36,10 +35,6 @@ title: Curriculum Vitae
 {% if pub.thesis %} Supervisor(s): {{pub.supervisor}} {% if pub.supervisor2 %} and {{pub.supervisor2}}{% endif %}{% endif %}
 
 {% endfor %}
-
-## Publications
-
-View the list of publications [here](./publications.md)
 
 ## Other Details
 

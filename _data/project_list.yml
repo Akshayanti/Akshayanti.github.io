@@ -6,12 +6,9 @@ position: Software Engineer (L1)
 web: https://akshayanti.github.io/
 
 current:
-  - name: Viability of LISCA in low-resource scenario
+  - name: Treebank Expansion and Validation in low-resource scenario
     link: https://github.com/Akshayanti/Lisca_Low_Resource
-    description: "Conclusive experiments to determine if LISCA can operate as well in a low-resource scenario"
-  - name: Data-driven Derinet 2.0 for Indic Languages
-    link: https://github.com/Akshayanti/Indic-Derinet-2.0
-    description: "An attempt at creating E2E Pipeline to form Derinet 2.0 network for (official) Indian Languages"
+    description: "Optimising LISCA for the aforementioned applications in a low-resource scenario"
 
 completed:
   - name: Sub-Reddit Identification of Reddit Data using Different Classification Algorithms in R
