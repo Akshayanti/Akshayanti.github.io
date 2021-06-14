@@ -3,7 +3,7 @@ affiliation: Twilio Czechia s.r.o
 address: Prague, Czechia
 email: akshayantimatter@gmail.com
 position: Software Engineer (L1)
-#web: http://people.csail.mit.edu/gchauras/
+web: https://akshayanti.github.io
 
 research_interests1:
   - Morpho-Syntax
@@ -16,29 +16,29 @@ research_interests2:
   - Language Independent Tools and Technologies
 
 education:
-    - date:         2017-2020
-      title:        M.Sc. in Computational Linguistics
-      affiliation:  Charles University
-      location:     Prague, Czechia
-      supervisor:   Daniel Zeman
-      thesis:       Consistency of Linguistic Annotation
-      note:         Part of EM-LCT dual degree program
-    - date:         2017-2019
-      title:        M.Sc. in Computational Linguistics
-      affiliation:  University of Basque Country
-      location:     Donostia, Spain
-      supervisor:   Daniel Zeman
-      supervisor2:  Koldo Gojenola
-      thesis:       "Annotation Inconsistencies in Universal Dependencies: Identification, and Correction"
-      note:         Part of EM-LCT dual degree program
-    - date:         January - June 2016
-      affiliation:  University de Technology de Compiègne
-      location:     Compiègne, France
-      title:        International Student Exchange
-    - date:         2012-2016
-      title:        B.Tech in Information Technology
-      affiliation:  Vellore Institute of Technology
-      location:     Vellore, India
+  - date:         2017-2020
+    title:        M.Sc. in Computational Linguistics
+    affiliation:  Charles University
+    location:     Prague, Czechia
+    supervisor:   Daniel Zeman
+    thesis:       Consistency of Linguistic Annotation
+    note:         Part of EM-LCT dual degree program
+  - date:         2017-2019
+    title:        M.Sc. in Computational Linguistics
+    affiliation:  University of Basque Country
+    location:     Donostia, Spain
+    supervisor:   Daniel Zeman
+    supervisor2:  Koldo Gojenola
+    thesis:       "Annotation Inconsistencies in Universal Dependencies: Identification, and Correction"
+    note:         Part of EM-LCT dual degree program
+  - date:         January - June 2016
+    affiliation:  University de Technology de Compiègne
+    location:     Compiègne, France
+    title:        International Student Exchange
+  - date:         2012-2016
+    title:        B.Tech in Information Technology
+    affiliation:  Vellore Institute of Technology
+    location:     Vellore, India
 
 positions:
   - date:         November 2020 - Present
@@ -61,57 +61,66 @@ positions:
     task:         "Analysis of Network Structure and monitoring Network Reliability"
 
 technical_skills:
-    - C++
-    - Matlab
+  - C++
+  - Matlab
 
 publications:
-    - title:    Estimating POS Annotation Consistency of Different Treebanks in a Language
-      author:   Aggarwal A., and Zeman D.
-      journal:  Proceedings of the 19th International Workshop on Treebanks and Linguistic Theories
-      note:     TLT 2020
-      year:     2020
-      url:      "https://www.aclweb.org/anthology/2020.tlt-1.9/"
-      #doi:      TODO
-    - title:    Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
-      author:   Aggarwal A.
-      journal:  Journal of Computer Sciences and Applications
-      note:     JCSA
-      year:     2016
-      url:      "http://pubs.sciepub.com/jcsa/4/1/1"
-      #doi:      "http://dx.doi.org/10.12691/jcsa-4-1-1"
-    - title:    Remote Update of Database through Mobile Device
-      author:   Aggarwal A., Kharia S., Mediratta D.
-      journal:  International Journal of Science Technology and Engineering
-      note:     IJSTE
-      year:     2015
-      url:      "http://ijste.org/Article.php?manuscript=IJSTEV2I3008"
-    - title:    Data Usage Monitor for a Shared Wireless Network Connection
-      author:   Aggarwal A., Kharia S.
-      journal:  IOSR Journal of Computer Engineering
-      note:     IOSR-JCE
-      year:     2015
-      doi:      "http://www.iosrjournals.org/iosr-jce/papers/Vol17-issue2/Version-1/H017215057.pdf"
-      #url:      "http://dx.doi.org/10.9790/0661-17215057"
+  - title:    Estimating POS Annotation Consistency of Different Treebanks in a Language
+    author:   Aggarwal A., and Zeman D.
+    journal:  Proceedings of the 19th International Workshop on Treebanks and Linguistic Theories
+    note:     TLT 2020
+    year:     2020
+    url:      "https://www.aclweb.org/anthology/2020.tlt-1.9/"
+    doi:      "http://dx.doi.org/10.18653/v1/2020.tlt-1.9"
+  - title:    Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
+    author:   Aggarwal A.
+    journal:  Journal of Computer Sciences and Applications
+    note:     JCSA
+    year:     2016
+    url:      "http://pubs.sciepub.com/jcsa/4/1/1"
+    #doi:      "http://dx.doi.org/10.12691/jcsa-4-1-1"
+  - title:    Remote Update of Database through Mobile Device
+    author:   Aggarwal A., Kharia S., Mediratta D.
+    journal:  International Journal of Science Technology and Engineering
+    note:     IJSTE
+    year:     2015
+    url:      "http://ijste.org/Article.php?manuscript=IJSTEV2I3008"
+  - title:    Data Usage Monitor for a Shared Wireless Network Connection
+    author:   Aggarwal A., Kharia S.
+    journal:  IOSR Journal of Computer Engineering
+    note:     IOSR-JCE
+    year:     2015
+    doi:      "http://www.iosrjournals.org/iosr-jce/papers/Vol17-issue2/Version-1/H017215057.pdf"
+    #url:      "http://dx.doi.org/10.9790/0661-17215057"
 
 theses:
-  - title: Consistency of Linguistic Annotation
-    school: Univerzita Karlova, Matematicko-fyzikální fakulta, Ústav Formální a Aplikované Lingvistiky (ÚFAL)
-    year: 2020
-    address: Prague, Czechia
-    supervisor: Zeman, Daniel
-    supervisor_link: https://ufal.mff.cuni.cz/daniel-zeman
-    url: https://dspace.cuni.cz/handle/20.500.11956/120867
-    type: Master's Thesis
-  - title: "Annotation Inconsistencies in Universal Dependencies: Identification, and Correction"
-    school: University of Basque Country
-    year: 2019
-    address: Donostia, Spain
-    supervisor: Zeman, Daniel
-    supervisor2: Gojenola, Koldo
-    supervisor_link: https://ufal.mff.cuni.cz/daniel-zeman
+  - title:            Consistency of Linguistic Annotation
+    school:           Univerzita Karlova, Matematicko-fyzikální fakulta, Ústav Formální a Aplikované Lingvistiky (ÚFAL)
+    year:             2020
+    address:          Prague, Czechia
+    supervisor:       Zeman, Daniel
+    supervisor_link:  https://ufal.mff.cuni.cz/daniel-zeman
+    url:              https://dspace.cuni.cz/handle/20.500.11956/120867
+    type:             Master's Thesis
+  - title:            "Annotation Inconsistencies in Universal Dependencies: Identification, and Correction"
+    school:           University of Basque Country
+    year:             2019
+    address:          Donostia, Spain
+    supervisor:       Zeman, Daniel
+    supervisor2:      Gojenola, Koldo
+    supervisor_link:  https://ufal.mff.cuni.cz/daniel-zeman
     supervisor2_link: https://scholar.google.es/citations?user=GAlMzzAAAAAJ
-    url: http://ixa.si.ehu.es/master/en/node/2100
-    type: Master's Thesis
+    url:              http://ixa.si.ehu.es/master/en/node/2100
+    type:             Master's Thesis
+
+posters:
+  - title:      Quality Check and Expansion of Small Treebanks
+    author:     Aggarwal A., and Alzetta C.
+    conference: TABU Dag
+    venue:      Online
+    year:       2021
+    internal:   true
+    url:        TABU_DAG2021.pdf
 
 language:
   - level: Native Fluency
@@ -132,9 +141,9 @@ awards:
     detail: Received Bronze Level, International Award for Young People (IAYP)
 
 references:
-    - name:  Daniel Zeman
-      affiliation: Institute of Formal and Applied Linguistics (ÚFAL), Charles University (UK), Czechia
-      mail:  zeman@ufal.mff.cuni.cz
-    - name: Koldo Gojenola
-      affiliation: IXA Research Group, University of Basque Country (UPV-EHU), Spain
-      mail: koldo.gojenola@ehu.eus
+  - name:  Daniel Zeman
+    affiliation: Institute of Formal and Applied Linguistics (ÚFAL), Charles University (UK), Czechia
+    mail:  zeman@ufal.mff.cuni.cz
+  - name: Koldo Gojenola
+    affiliation: IXA Research Group, University of Basque Country (UPV-EHU), Spain
+    mail: koldo.gojenola@ehu.eus

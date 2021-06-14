@@ -24,6 +24,20 @@ Jump to: [[Publications](#publications)] [[Theses](#theses)]
 
 ----
 
+## Posters
+
+{% for pub in site.data.cv.posters %}
+`{{pub.year}}`
+{{pub.author}}<br />
+**{{pub.title}}**<br />
+*{{pub.conference}}, {{pub.venue}}*
+({% if pub.internal %}[[web]{{pub.url | prepend: site.url}}{% else %}{{pub.url}}]{% endif %})
+{% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
+
+{% endfor %}
+
+----
+
 ## Theses
 
 {% for pub in site.data.cv.theses %}
