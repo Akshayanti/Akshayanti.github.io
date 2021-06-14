@@ -5,11 +5,11 @@ title: List of Publications
 
 <i class="ai ai-fw ai-google-scholar"></i> [View on Google Scholar](https://scholar.google.co.uk/citations?user=aPd4T_YAAAAJ)
 
-Jump to: [[Publications](#publications)] [[Posters](#posters)] [[Theses](#theses)]
+Jump to: [[Articles](#articles)] [[Posters](#posters)] [[Theses](#theses)]
 
 ----
 
-## Publications
+## Articles
 
 {% for pub in site.data.cv.publications %}
 `{{pub.year}}` 
@@ -33,7 +33,6 @@ Jump to: [[Publications](#publications)] [[Posters](#posters)] [[Theses](#theses
 *{{pub.conference}}, {{pub.venue}}*
 <br />
 [[View Poster]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]
-
 
 {% endfor %}
 

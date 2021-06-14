@@ -3,16 +3,28 @@ layout: resume
 title: Curriculum Vitae 
 ---
 
-<i class="fa fa-fw fa-github"></i> [View Academic CV on Github](https://github.com/Akshayanti/myCV/blob/CVs/Resume_academic.pdf) <i class="fa fa-fw fa-github"></i> [View Professional CV on Github](https://github.com/Akshayanti/myCV/blob/CVs/Resume_professional.pdf)
+<i class="fa fa-fw fa-github"></i> [Academic CV on Github](https://github.com/Akshayanti/myCV/blob/CVs/Resume_academic.pdf)  
+<i class="fa fa-fw fa-github"></i> [Professional CV on Github](https://github.com/Akshayanti/myCV/blob/CVs/Resume_professional.pdf)
 
 ## Current Occupation
 
 {{site.data.cv.position}} at {{site.data.cv.affiliation}}, {{ site.data.cv.address }}
 
-**Quick Navigation Links**:<b />
-[[Education](#education)] [[Publications](#publications)] [[Theses](#theses)] [[Professional Experience](#professional-experience)] [[Other Details](#other-details)] [[References](#references)]
+**Quick Navigation Links**:<br />
+[[Professional Experience](#professional-experience)] [[Education](#education)] <br />
+[[Publications](#publications)] [[Other Details](#other-details)] <br />
+[[References](#references)]
 
 ----
+
+## Professional Experience
+
+{% for pub in site.data.cv.positions %}
+`{{pub.date}}`
+**{{pub.title}}**, {{pub.company}}, {{pub.location}}<br />
+{{% if pub.task %}} {{pub.task}} {{% endif %}}
+
+{% endfor %}
 
 ## Education
 
@@ -27,38 +39,7 @@ title: Curriculum Vitae
 
 ## Publications
 
-{% for pub in site.data.cv.publications %}
-`{{pub.year}}`
-{{pub.author}}<br />
-**{{pub.title}}**<br />
-*{{pub.journal}}*
-{% if pub.note %} *({{pub.note}})* {% endif %}<br />
-[[web]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]
-{% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
-
-{% endfor %}
-
-## Theses
-
-{% for pub in site.data.cv.theses %}
-`{{pub.year}}`
-**{{pub.title}}**<br />
-{{% if pub.type %}} {{pub.type}}. Supervised by [{{pub.supervisor}}]({{pub.supervisor_link}})
-{% if pub.supervisor2 %} and [{{pub.supervisor2}}]({{pub.supervisor2_link}}){% endif %}.{{% endif %}}<br />
-*{{pub.school}}*<br />
-In *{{pub.address}}* <br />
-{% if pub.url %}[[View Thesis]({{pub.url}})]{% endif %}
-
-{% endfor %}
-
-## Professional Experience
-
-{% for pub in site.data.cv.positions %}
-`{{pub.date}}`
-**{{pub.title}}**, {{pub.company}}, {{pub.location}}<br />
-{{% if pub.task %}} {{pub.task}} {{% endif %}}
-
-{% endfor %}
+View the list of publications [here](./publications.md)
 
 ## Other Details
 
@@ -70,7 +51,7 @@ In *{{pub.address}}* <br />
 
 {% endfor %}
 
-### Awards and Extra-Curricular
+### Awards and Extra-Curriculars
 
 {% for pub in site.data.cv.awards %}
 `{{pub.year}}`
