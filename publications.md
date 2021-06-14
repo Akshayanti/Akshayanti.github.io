@@ -5,7 +5,7 @@ title: List of Publications
 
 <i class="ai ai-fw ai-google-scholar"></i> [View on Google Scholar](https://scholar.google.co.uk/citations?user=aPd4T_YAAAAJ)
 
-Jump to: [[Publications](#publications)] [[Theses](#theses)]
+Jump to: [[Publications](#publications)] [[Posters](#posters)] [[Theses](#theses)]
 
 ----
 
@@ -31,8 +31,9 @@ Jump to: [[Publications](#publications)] [[Theses](#theses)]
 {{pub.author}}<br />
 **{{pub.title}}**<br />
 *{{pub.conference}}, {{pub.venue}}*
-({% if pub.internal %}[[web]{{pub.url | prepend: site.url}}{% else %}{{pub.url}}]{% endif %})
-{% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
+<br />
+[[web]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]
+
 
 {% endfor %}
 
