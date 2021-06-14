@@ -32,7 +32,7 @@ Jump to: [[Publications](#publications)] [[Posters](#posters)] [[Theses](#theses
 **{{pub.title}}**<br />
 *{{pub.conference}}, {{pub.venue}}*
 <br />
-[[web]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]
+[[View Poster]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]
 
 
 {% endfor %}
