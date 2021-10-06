@@ -6,7 +6,7 @@ excerpt: "About Me..."
 At present, I'm working as a software engineer with Twilio in Prague, Czechia.
 
 Graduate of [LCT Program](https://lct-master.org/), I did my master's in Computational Linguistics from
-Charles University (Czechia, 2021) and University of Basque Country (Spain, 2019). 
+Charles University (Czechia, 2020) and University of Basque Country (Spain, 2019). 
 
 Whatever free time I find from work and reading, I devote to automating mundane tasks by scripting them, trying to learn and/or
 read about different languages in the world, browsing random articles on wikipedia, and gaming.
