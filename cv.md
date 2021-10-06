@@ -21,8 +21,8 @@ title: Curriculum Vitae
 {% for pub in site.data.cv.positions %}
 `{{pub.date}}`
 **{{pub.title}}** at **{{pub.company}}**, {{pub.location}}
-{{% if pub.now_pos %}} {{pub.now_pos}} `{{pub.now_pos_date}}`<br /> {{% endif %}}
-{{% if pub.prev_pos %}} {{pub.prev_pos}} `{{pub.prev_pos_date}}`<br /> {{% endif %}}
+{{% if pub.now_pos %}} {{pub.now_pos}} `{{pub.now_pos_date}}` {{% endif %}}
+{{% if pub.prev_pos %}} {{pub.prev_pos}} `{{pub.prev_pos_date}}` {{% endif %}}
 {{% if pub.task %}} {{pub.task}} {{% endif %}}
 
 {% endfor %}
@@ -33,8 +33,9 @@ title: Curriculum Vitae
 `{{pub.date}}`
 **{{pub.title}}**, {{pub.affiliation}}, {{pub.location}}<br />
 {% if pub.note %} *({{pub.note}})*<br />{% endif %}
-{% if pub.thesis %} Thesis Title: {{pub.thesis}}<br /> {% endif %}
-{% if pub.thesis %} Supervisor(s): {{pub.supervisor}} {% if pub.supervisor2 %} and {{pub.supervisor2}}{% endif %}{% endif %}
+{% if pub.thesis %} **Thesis Title:** {{pub.thesis}}<br /> {% endif %}
+{% if pub.thesis %} **Supervisor(s):** {{pub.supervisor}} {% if pub.supervisor2 %} and {{pub.supervisor2}}{% endif %}{% 
+endif %}
 
 {% endfor %}
 
