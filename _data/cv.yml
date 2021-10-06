@@ -1,8 +1,8 @@
 name: Akshay Aggarwal
-affiliation: Twilio Czechia s.r.o
+affiliation: Twilio
 address: Prague, Czechia
 email: akshayantimatter@gmail.com
-position: Software Engineer (L1)
+position: Software Engineer (L2)
 web: https://akshayanti.github.io
 
 research_interests1:
@@ -41,19 +41,23 @@ education:
     location:     Vellore, India
 
 positions:
-  - date:         November 2020 - Present
-    title:        Software Engineer (L1)
-    company:      Twilio Czechia s.r.o
-    location:     Prague, Czechia
-    mentor:       Aleš Kracik
-    mentor_id:    akracik@twilio.com
+  - date:           November 2020 - Present
+    title:          Software Engineer
+    company:        Twilio
+    now_pos:        Software Engineer (L1)
+    now_pos_date:   October 2021 - Present
+    prev_pos:       Software Engineer (L1)
+    prev_pos_date:  November 2020 - September 2021
+    location:       Prague, Czechia
+    mentor:         Aleš Kracik
+    mentor_id: akracik@twilio.com
   - date:         April - October 2020
     title:        Intern Software Engineer (R&D)
-    company:      Twilio Czechia s.r.o
+    company:      Twilio
     location:     Prague, Czechia
     mentor:       Aleš Kracik
     mentor_id:    akracik@twilio.com
-    task:         "Worked on Flex Data Team on ongoing projects. Learnt industry level coding standards in Java and JS, while also picking up knowledge on practices, tools, and services like Kafka, Docker, etc."
+    task:         "Worked on Flex Insights Team on ongoing projects. Learnt industry level coding standards in Java, while also picking up knowledge on practices, tools, and services like Kafka, Docker, etc."
   - date:         June 2014
     title:        Intern Network Administrator
     company:      Telenor Communications Pvt. Ltd.
@@ -80,13 +84,13 @@ publications:
     url:      "http://pubs.sciepub.com/jcsa/4/1/1"
     #doi:      "http://dx.doi.org/10.12691/jcsa-4-1-1"
   - title:    Remote Update of Database through Mobile Device
-    author:   Aggarwal A., Kharia S., Mediratta D.
+    author:   Aggarwal A., Kharia S., and Mediratta D.
     journal:  International Journal of Science Technology and Engineering
     note:     IJSTE
     year:     2015
     url:      "http://ijste.org/Article.php?manuscript=IJSTEV2I3008"
   - title:    Data Usage Monitor for a Shared Wireless Network Connection
-    author:   Aggarwal A., Kharia S.
+    author:   Aggarwal A., and Kharia S.
     journal:  IOSR Journal of Computer Engineering
     note:     IOSR-JCE
     year:     2015

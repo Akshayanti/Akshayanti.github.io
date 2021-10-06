@@ -3,7 +3,7 @@ layout: page
 excerpt: "About Me..."
 ---
 
-At present, I'm working as a software engineer with Twilio Czechia s.r.o.
+At present, I'm working as a software engineer with Twilio in Prague, Czechia.
 
 Graduate of [LCT Program](https://lct-master.org/), I did my master's in Computational Linguistics from
 Charles University (Czechia, 2021) and University of Basque Country (Spain, 2019). 
