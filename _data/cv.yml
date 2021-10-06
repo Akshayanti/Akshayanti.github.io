@@ -41,17 +41,17 @@ education:
     location:     India
 
 positions:
-  - date:           November 2020 - Present
+  - date:           Nov 2020 - Present
     title:          Software Engineer
     company:        Twilio
     now_pos:        Software Engineer (L2), Flex Insights Real-Time
     now_pos_date:   October 2021 - Present
     prev_pos:       Software Engineer (L1), Flex Insights Real-Time
-    prev_pos_date:  November 2020 - September 2021
+    prev_pos_date:  Nov 2020 - Sep 2021
     location:       Czechia
     mentor:         Aleš Kracik
     mentor_id:      akracik@twilio.com
-  - date:           April - October 2020
+  - date:           Apr - Oct 2020
     title:          Intern Software Engineer (R&D)
     company:        Twilio
     location:       Czechia
