@@ -11,11 +11,11 @@ Jump to: [[Articles](#articles)] [[Posters](#posters)] [[Theses](#theses)]
 
 ## Articles
 
-<ol>
+<ul>
 {% for pub in site.data.cv.publications %}
-<li>{{pub.authors}}. <b>{{pub.title}}</b>. {% if pub.type == "conference" %} In <i>{{pub.journal}}</i>, {% if pub.pages %}pages{{pub.pages}},{% endif %} {% if pub.volume %}volume {{pub.volume}} of {{pub.series}},{% endif %} {{pub.location}}, {{pub.date}}. {{pub.publisher}}. {% else %} *{{pub.journal}}*, {{pub.volume}}({{pub.number}}):{{pub.pages}}, {{pub.year}}. ISSN {{pub.issn}}. {% endif %} {% if pub.url %}[link]({{pub.url}}){%endif %}</li><br />
+<li>{{pub.authors}}. <b>{{pub.title}}</b>. {% if pub.type == "conference" %} In <em>{{pub.journal}}</em>, {% if pub.pages %}pages {{pub.pages}},{% endif %} {% if pub.volume %}volume {{pub.volume}} of {{pub.series}},{% endif %} {{pub.location}}, {{pub.date}}. {{pub.publisher}}. {% else %} *{{pub.journal}}*, {{pub.volume}}({{pub.number}}):{{pub.pages}}, {{pub.year}}. ISSN {pub.issn}}. {% endif %} {% if pub.url %}<button><a href={{pub.url}}>View Publication</a></button>{%endif %}</li><br />
 {% endfor %}
-</ol>
+</ul>
 ----
 
 ## Posters
