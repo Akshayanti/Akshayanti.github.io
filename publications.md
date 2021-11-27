@@ -3,9 +3,9 @@ layout: resume
 title: List of Publications
 ---
 
-<i class="ai ai-fw ai-google-scholar"></i> [View on Google Scholar](https://scholar.google.co.uk/citations?user=aPd4T_YAAAAJ)
+<i class="ai ai-fw ai-google-scholar"></i> [Google Scholar Page](https://scholar.google.co.uk/citations?user=aPd4T_YAAAAJ)
 
-Jump to: [[Articles](#articles)] [[Posters](#posters)] [[Theses](#theses)]
+Jump to: <a href="#articles"><button>Articles</button></a> <a href="#posters"><button>Posters</button></a> <a href="#theses"><button>Theses</button></a>
 
 ----
 
