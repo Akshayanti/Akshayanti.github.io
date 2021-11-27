@@ -12,14 +12,10 @@ Jump to: [[Articles](#articles)] [[Posters](#posters)] [[Theses](#theses)]
 ## Articles
 
 {% for pub in site.data.cv.publications %}
-`{{pub.year}}` 
-{{pub.author}}<br />
-**{{pub.title}}**<br />
-*{{pub.journal}}*
-{% if pub.note %} *({{pub.note}})* {% endif %}<br />
-[[web]({% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %})]
-{% if pub.doi %}[[doi]({{pub.doi}})]{% endif %}
-
+{{pub.authors}}. **{{pub.title}}**. {% if pub.type == "conference" %} In *{{pub.journal}}*, pages {{pub.pages}}, {
+{pub.location}}, {{pub.date}}. {{pub.publisher}}. {% else %} *{{pub.journal}}* {% endif %} {% if pub.url %}[[link]({
+{pub.url}})]{% 
+endif %}
 {% endfor %}
 
 ----
