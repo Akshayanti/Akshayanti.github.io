@@ -78,7 +78,6 @@ publications:
     location:   Milano, Italy
     date:       26-28 January 2022
     publisher:  CEUR-WS.org
-    url:        ""
   - title:      Estimating POS Annotation Consistency of Different Treebanks in a Language
     authors:    Akshay Aggarwal and Daniel Zeman
     type:       conference
