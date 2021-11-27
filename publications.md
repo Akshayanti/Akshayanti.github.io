@@ -23,7 +23,7 @@ Jump to: [[Articles](#articles)] [[Posters](#posters)] [[Theses](#theses)]
 
 <ul>
     {% for pub in site.data.cv.posters %}
-        <li>{{pub.authors}}.  Poster: {{pub.title}}. In <em>{{pub.conference}}</em>, {{pub.venue}}, {{pub.year}}. {% if pub.url %}<a href="{% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}"><button>View Poster</button></a>{%endif %}</li><br />
+        <li>{{pub.authors}}.  Poster: {{pub.title}}. In <em>{{pub.conference}}</em>, {{pub.venue}}, {{pub.year}}. {% if pub.url %}<a href="{% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %}"><button>View Poster</button></a>{%endif %}</li><br />
     {% endfor %}
 </ul>
 ----
