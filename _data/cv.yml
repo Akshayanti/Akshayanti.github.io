@@ -69,24 +69,29 @@ technical_skills:
   - Matlab
 
 publications:
+  - title:      Atypical or Underrepresented? A Pilot Study on Small Treebanks
+    authors:    Akshay Aggarwal and Chiara Alzetta
+    journal:    ??
+    url:        ??
+    type:       conference
+    pages:      ??
+    location:   Milano, Italy
+    date:       26-28 January 2022
+    publisher:  ??
   - title:      Estimating POS Annotation Consistency of Different Treebanks in a Language
     authors:    Akshay Aggarwal and Daniel Zeman
     journal:    Proceedings of the 19th International Workshop on Treebanks and Linguistic Theories
-    note:       TLT 2020
-    year:       2020
     url:        "http://dx.doi.org/10.18653/v1/2020.tlt-1.9"
     type:       conference
     pages:      93-110
     location:   Düsseldorf, Germany
-    date:       27-28 October 2020.
-    publisher:
-  - title:    Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
-    authors:  Akshay Aggarwal
-    journal:  Journal of Computer Sciences and Applications
-    note:     JCSA
-    year:     2016
-    url:      "http://pubs.sciepub.com/jcsa/4/1/1"
-    type:     journal
+    date:       27-28 October 2020
+    publisher:  Association for Computational Linguistics
+  - title:      Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
+    authors:    Akshay Aggarwal
+    journal:    Journal of Computer Sciences and Applications
+    url:        "http://pubs.sciepub.com/jcsa/4/1/1"
+    type:       journal
 
 theses:
   - title:            Consistency of Linguistic Annotation
@@ -110,7 +115,7 @@ theses:
 
 posters:
   - title:      Quality Check and Expansion of Small Treebanks
-    author:     Aggarwal A., and Alzetta C.
+    author:     Akshay Aggarwal and Chiara Alzetta
     conference: TABU Dag
     venue:      Online
     year:       2021
