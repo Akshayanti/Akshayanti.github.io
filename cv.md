@@ -6,13 +6,7 @@ title: Curriculum Vitae
 <i class="fa fa-fw fa-github"></i> [Academic CV on Github](https://github.com/Akshayanti/myCV/blob/CVs/Resume_academic.pdf)  
 <i class="fa fa-fw fa-github"></i> [Professional CV on Github](https://github.com/Akshayanti/myCV/blob/CVs/Resume_professional.pdf)
 
-## Current Occupation
-
-{{site.data.cv.position}} at {{site.data.cv.affiliation}}, {{ site.data.cv.address }}
-
-**Quick Navigation Links**:<br />
-[[Professional Experience](#professional-experience)] [[Education](#education)] <br />
-[[Other Details](#other-details)] [[References](#references)]
+Jump to: <a href="#articles"><button>Articles</button></a> <a href="#posters"><button>Posters</button></a> <a href="#theses"><button>Theses</button></a>
 
 ----
 
@@ -56,17 +50,6 @@ endif %}
 {{pub.detail}}
 
 {% endfor %}
-
-## References
-
-{% for pub in site.data.cv.references %}
-**{{pub.name}}**<br />
-{{pub.affiliation}}<br />
-<i class="fa fa-fw fa-envelope-square"></i> [{{pub.mail}}](mailto:{{pub.mail}})
-
-{% endfor %}
-
-
 
 <!-- ### Footer
 
