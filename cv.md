@@ -6,7 +6,7 @@ title: Curriculum Vitae
 <i class="fa fa-fw fa-github"></i> [Academic CV on Github](https://github.com/Akshayanti/myCV/blob/CVs/Resume_academic.pdf)  
 <i class="fa fa-fw fa-github"></i> [Professional CV on Github](https://github.com/Akshayanti/myCV/blob/CVs/Resume_professional.pdf)
 
-Jump to: <a href="#articles"><button>Articles</button></a> <a href="#posters"><button>Posters</button></a> <a href="#theses"><button>Theses</button></a>
+Jump to: <a href="#professional-experience"><button>Professional Experience</button></a> <a href="#education"><button>Education</button></a> <a href="#miscellaneous"><button>Miscellaneous</button></a> <a href="#references"><button>References</button></a>
 
 ----
 
@@ -33,26 +33,29 @@ endif %}
 
 {% endfor %}
 
-## Other Details
+## Miscellaneous
 
 ### Spoken Languages
 
-{% for pub in site.data.cv.language %}
-`{{pub.level}}`
-{{pub.name}}
-
-{% endfor %}
+<ul>
+    {% for pub in site.data.cv.language %}
+        <li>{{pub.level}} fluency in {{pub.name}}</li>
+    {% endfor %}
+</ul>
 
 ### Awards and Extra-Curriculars
 
-{% for pub in site.data.cv.awards %}
-`{{pub.year}}`
-{{pub.detail}}
+<ul>
+    {% for pub in site.data.cv.awards %}
+        <li>{{pub.year}}, {{pub.detail}}</li>
+    {% endfor %}
+</ul>
+
+## References
+
+{% for pub in site.data.cv.references %}
+**{{pub.name}}**<br />
+{{pub.affiliation}}<br />
+<i class="fa fa-fw fa-envelope-square"></i> [{{pub.mail}}](mailto:{{pub.mail}})
 
 {% endfor %}
-
-<!-- ### Footer
-
-Last updated: Oct 25, 2020 -->
-
-

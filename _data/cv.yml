@@ -128,8 +128,12 @@ language:
     name: Hindi
   - level: Near-native Fluency
     name: English
-  - level: Basic Proficiency
-    name: Spanish, French, Japanese
+  - level: A2
+    name: Spanish
+  - level: A1
+    name: French
+  - level: N5
+    name: Japanese
 
 awards:
   - year: 2018
@@ -142,9 +146,12 @@ awards:
     detail: Received Bronze Level, International Award for Young People (IAYP)
 
 references:
-  - name:  Daniel Zeman
-    affiliation: Institute of Formal and Applied Linguistics (ÚFAL), Charles University (UK), Czechia
-    mail:  zeman@ufal.mff.cuni.cz
-  - name: Koldo Gojenola
-    affiliation: IXA Research Group, University of Basque Country (UPV-EHU), Spain
-    mail: koldo.gojenola@ehu.eus
+  - name:         Aleš Kracík
+    affiliation:  Manager, Flex Insights, Twilio, Czechia
+    mail:         akracik@twilio.com
+  - name:         Daniel Zeman
+    affiliation:  Institute of Formal and Applied Linguistics (ÚFAL), Charles University (UK), Czechia
+    mail:         zeman@ufal.mff.cuni.cz
+  - name:         Koldo Gojenola
+    affiliation:  IXA Research Group, University of Basque Country (UPV-EHU), Spain
+    mail:         koldo.gojenola@ehu.eus

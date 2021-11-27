@@ -58,6 +58,7 @@
   width: 100%;
   margin-top: 0.25em;
   text-align: left;
+  font-size: 0.8em;
 }
 .resume li {
   margin-left: 2em;
@@ -90,7 +91,7 @@ div#resume.resume{
   color: $lowlightcolor;
   position: relative;
   top: 1.7em;
-  text-align: right;
+  text-align: left;
   width: 30%;
 }
 .resume h4 {

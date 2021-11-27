@@ -35,7 +35,3 @@ Jump to: <a href="#articles"><button>Articles</button></a> <a href="#posters"><b
         <li>Akshay Aggarwal.  {{pub.title}}.  {{pub.type}} thesis. {{pub.school}}, {{pub.address}}, {{pub.year}}. Thesis Supervisor {{pub.supervisor}}. {% if pub.url %}<a href="{% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %}"><button>View Thesis</button></a>{%endif %}</li><br />
     {% endfor %}
 </ul>
-
-
-### Footer
-Last updated: {{today}}
