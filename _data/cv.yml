@@ -120,7 +120,7 @@ theses:
 
 posters:
   - title:      Quality Check and Expansion of Small Treebanks
-    author:     Akshay Aggarwal and Chiara Alzetta
+    authors:    Akshay Aggarwal and Chiara Alzetta
     conference: TABU Dag
     venue:      Online
     year:       2021
