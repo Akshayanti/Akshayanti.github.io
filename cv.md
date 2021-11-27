@@ -34,8 +34,7 @@ endif %}
 {% endfor %}
 
 ## Miscellaneous
-
-asd
+<p></p>
 
 ### Languages
 
