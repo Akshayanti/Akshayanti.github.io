@@ -14,7 +14,7 @@ Jump to: [[Articles](#articles)] [[Posters](#posters)] [[Theses](#theses)]
 
 <ul>
     {% for pub in site.data.cv.publications %}
-        <li>{{pub.authors}}.  {{pub.title}}.  {% if pub.type == "conference" %} In {{pub.journal}}, {% if pub.pages %}pages {{pub.pages}},{% endif %} {% if pub.volume %}volume {{pub.volume}} of {{pub.series}},{% endif %} {{pub.location}}, {{pub.date}}.  {{pub.publisher}}. {% else %} _{{pub.journal}}_, {{pub.volume}}({{pub.number}}):{{pub.pages}}, {{pub.year}}. ISSN {{pub.issn}}. {% endif %} {% if pub.url %}<a href="{{pub.url}}"><button>View Publication</button></a>{%endif %}</li><br />
+        <li>{{pub.authors}}.  {{pub.title}}.  {% if pub.type == "conference" %} In <em>{{pub.journal}}</em>, {% if pub.pages %}pages {{pub.pages}},{% endif %} {% if pub.volume %}volume {{pub.volume}} of {{pub.series}},{% endif %} {{pub.location}}, {{pub.date}}.  {{pub.publisher}}. {% else %} <em>{{pub.journal}}</em>, {{pub.volume}}({{pub.number}}):{{pub.pages}}, {{pub.year}}. ISSN {{pub.issn}}. {% endif %} {% if pub.url %}<a href="{{pub.url}}"><button>View Publication</button></a>{%endif %}</li><br />
     {% endfor %}
 </ul>
 ----
