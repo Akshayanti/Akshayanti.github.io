@@ -35,7 +35,7 @@ endif %}
 
 ## Miscellaneous
 
-### Spoken Languages
+### Languages
 
 <ul>
     {% for pub in site.data.cv.language %}

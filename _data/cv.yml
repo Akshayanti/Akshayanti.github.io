@@ -124,9 +124,9 @@ posters:
     url:        /files/TABU_DAG2021.pdf
 
 language:
-  - level: Native Fluency
+  - level: Native
     name: Hindi
-  - level: Near-native Fluency
+  - level: Near-native
     name: English
   - level: A2
     name: Spanish
