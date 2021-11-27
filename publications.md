@@ -12,7 +12,7 @@ Jump to: [[Articles](#articles)] [[Posters](#posters)] [[Theses](#theses)]
 ## Articles
 
 {% for pub in site.data.cv.publications %}
-{{pub.authors}}. **{{pub.title}}**. {% if pub.type == "conference" %} In *{{pub.journal}}*, pages {{pub.pages}}, {{pub.location}}, {{pub.date}}. {{pub.publisher}}. {% else %} *{{pub.journal}}* {% endif %} {% if pub.url %}[[link]({{pub.url}})]{% endif %}
+{{pub.authors}}. **{{pub.title}}**. {% if pub.type == "conference" %} In *{{pub.journal}}*, {% if pub.pages %}pages {{pub.pages}},{% endif %} {% if pub.volume %}volume {{pub.volume}} of {{pub.series}},{% endif %} {{pub.location}}, {{pub.date}}. {{pub.publisher}}. {% else %} *{{pub.journal}}* {% endif %} {% if pub.url %}[[link]({{pub.url}})]{% endif %} 
 {% endfor %}
 
 ----

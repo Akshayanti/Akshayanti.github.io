@@ -71,13 +71,14 @@ technical_skills:
 publications:
   - title:      Atypical or Underrepresented? A Pilot Study on Small Treebanks
     authors:    Akshay Aggarwal and Chiara Alzetta
-    journal:    ??
-    url:        ??
+    journal:    Proceedings of the Eighth Italian Conference on Computational Linguistics (CLiC-it 2021)
+    url:        ""
+    volume:     xxx
+    series:     CEUR Workshop Proceedings
     type:       conference
-    pages:      ??
     location:   Milano, Italy
     date:       26-28 January 2022
-    publisher:  ??
+    publisher:  CEUR-WS.org
   - title:      Estimating POS Annotation Consistency of Different Treebanks in a Language
     authors:    Akshay Aggarwal and Daniel Zeman
     journal:    Proceedings of the 19th International Workshop on Treebanks and Linguistic Theories
