@@ -70,7 +70,7 @@ technical_skills:
 
 publications:
   - title:      Estimating POS Annotation Consistency of Different Treebanks in a Language
-    author:     Akshay Aggarwal and Daniel Zeman
+    authors:    Akshay Aggarwal and Daniel Zeman
     journal:    Proceedings of the 19th International Workshop on Treebanks and Linguistic Theories
     note:       TLT 2020
     year:       2020
@@ -81,7 +81,7 @@ publications:
     date:       27-28 October 2020.
     publisher:
   - title:    Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
-    author:   Aggarwal A.
+    authors:  Akshay Aggarwal
     journal:  Journal of Computer Sciences and Applications
     note:     JCSA
     year:     2016
