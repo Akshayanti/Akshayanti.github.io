@@ -73,21 +73,21 @@ publications:
     authors:    Akshay Aggarwal and Chiara Alzetta
     type:       conference
     journal:    Proceedings of the Eighth Italian Conference on Computational Linguistics (CLiC-it 2021)
-    url:        ""
     volume:     xxx
     series:     CEUR Workshop Proceedings
     location:   Milano, Italy
     date:       26-28 January 2022
     publisher:  CEUR-WS.org
+    url:        ""
   - title:      Estimating POS Annotation Consistency of Different Treebanks in a Language
     authors:    Akshay Aggarwal and Daniel Zeman
     type:       conference
     journal:    Proceedings of the 19th International Workshop on Treebanks and Linguistic Theories
-    url:        "http://dx.doi.org/10.18653/v1/2020.tlt-1.9"
     pages:      93-110
     location:   Düsseldorf, Germany
     date:       27-28 October 2020
     publisher:  Association for Computational Linguistics
+    url:        "http://dx.doi.org/10.18653/v1/2020.tlt-1.9"
   - title:      Enhancing Social Media Experience by Usage of User-Defined Nicknames as Additional Identifiers for Online Interaction
     authors:    Akshay Aggarwal
     type:       journal
@@ -100,7 +100,7 @@ publications:
     url:        "http://pubs.sciepub.com/jcsa/4/1/1"
 
 theses:
-  - title:            Consistency of Linguistic Annotation
+  - title:            "Consistency of Linguistic Annotation"
     school:           Univerzita Karlova, Matematicko-fyzikální fakulta, Ústav Formální a Aplikované Lingvistiky (ÚFAL)
     year:             2020
     address:          Prague, Czechia
