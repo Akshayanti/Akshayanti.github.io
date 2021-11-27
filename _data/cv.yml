@@ -51,6 +51,7 @@ positions:
     location:       Czechia
     mentor:         Aleš Kracik
     mentor_id:      akracik@twilio.com
+    logo:           "/images/twilio.svg"
   - date:           Apr - Oct 2020
     title:          Intern Software Engineer (R&D)
     company:        Twilio
@@ -58,11 +59,13 @@ positions:
     mentor:         Aleš Kracik
     mentor_id:      akracik@twilio.com
     task:           "Worked on Flex Insights Team on ongoing projects. Learnt industry level coding standards in Java, while also picking up knowledge on practices, tools, and services like Kafka, Docker, etc."
+    logo:           "/images/twilio.svg"
   - date:           June 2014
     title:          Intern Network Administrator
     company:        Telenor Communications Pvt. Ltd.
     location:       India
     task:           "Analysis of Network Structure and monitoring Network Reliability"
+    logo:           "/images/twilio.svg"
 
 technical_skills:
   - C++

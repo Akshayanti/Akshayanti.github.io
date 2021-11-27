@@ -14,7 +14,7 @@ Jump to: <a href="#professional-experience"><button>Professional Experience</but
 
 {% for pub in site.data.cv.positions %}
 `{{pub.date}}`
-**{{pub.title}}** at **{{pub.company}}**, {{pub.location}}<br />
+<link rel="shortcut icon" href="{{pub.logo}}"> **{{pub.title}}** at **{{pub.company}}**, {{pub.location}}<br />
 {% if pub.now_pos %} {{pub.now_pos}} `{{pub.now_pos_date}}`<br />{% endif %}
 {% if pub.prev_pos %} {{pub.prev_pos}} `{{pub.prev_pos_date}}`<br />{% endif %}
 {% if pub.task %} {{pub.task}} {% endif %}
