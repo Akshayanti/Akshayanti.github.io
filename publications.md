@@ -30,13 +30,8 @@ Jump to: [[Articles](#articles)] [[Posters](#posters)] [[Theses](#theses)]
 
 ## Theses
 
-{% for pub in site.data.cv.theses %}
-`{{pub.year}}`
-**{{pub.title}}**<br />
-{{% if pub.type %}} {{pub.type}}. Supervised by [{{pub.supervisor}}]({{pub.supervisor_link}})
-{% if pub.supervisor2 %} and [{{pub.supervisor2}}]({{pub.supervisor2_link}}){% endif %}.{{% endif %}}<br />
-*{{pub.school}}*<br />
-In *{{pub.address}}* <br />
-{% if pub.url %}[[View Thesis]({{pub.url}})]{% endif %}
-
-{% endfor %}
+<ul>
+    {% for pub in site.data.cv.theses %}
+        <li>{{pub.author}}.  {{pub.title}}.  {{pub.type}} thesis. {{pub.school}}, {{pub.address}}, {{pub.year}}. Thesis Supervisor {{pub.supervisor}}. {% if pub.url %}<a href="{% if pub.internal %}{{pub.url | prepend: site.url}}{% else %}{{pub.url}}{% endif %}"><button>View Thesis</button></a>{%endif %}<\li>
+    {% endfor %}
+</ul>

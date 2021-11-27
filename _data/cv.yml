@@ -104,19 +104,15 @@ theses:
     year:             2020
     address:          Prague, Czechia
     supervisor:       Zeman, Daniel
-    supervisor_link:  https://ufal.mff.cuni.cz/daniel-zeman
     url:              https://dspace.cuni.cz/handle/20.500.11956/120867
-    type:             Master's Thesis
+    type:             Master's
   - title:            "Annotation Inconsistencies in Universal Dependencies: Identification, and Correction"
     school:           University of Basque Country
     year:             2019
     address:          Donostia, Spain
-    supervisor:       Zeman, Daniel
-    supervisor2:      Gojenola, Koldo
-    supervisor_link:  https://ufal.mff.cuni.cz/daniel-zeman
-    supervisor2_link: https://scholar.google.es/citations?user=GAlMzzAAAAAJ
+    supervisor:       Zeman, Daniel and Gojenola, Koldo
     url:              http://ixa.si.ehu.es/master/en/node/2100
-    type:             Master's Thesis
+    type:             Master's
 
 posters:
   - title:      Quality Check and Expansion of Small Treebanks
