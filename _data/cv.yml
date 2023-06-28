@@ -150,9 +150,9 @@ awards:
     detail: Received Bronze Level, International Award for Young People (IAYP)
 
 references:
-  - name:         Aleš Kracík
-    affiliation:  Flex Insights, Twilio, Czechia
-    mail:         akracik@twilio.com
+#  - name:         Aleš Kracík
+#    affiliation:  Flex Insights, Twilio, Czechia
+#    mail:         akracik@twilio.comic-con
   - name:         Daniel Zeman
     affiliation:  Institute of Formal and Applied Linguistics (ÚFAL), Charles University (UK), Czechia
     mail:         zeman@ufal.mff.cuni.cz
